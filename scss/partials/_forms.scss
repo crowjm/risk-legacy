@@ -54,32 +54,32 @@ input, textarea, select, button, label {
 
 .current-play {
   background-color: rgba(95, 15, 64, .2);
-  border: 2px solid #5F0F40;
+  border: 2px solid $purple;
 }
 
 .current-play h2 {
-  color: #5F0F40;
+  color: $purple;
 }
 
 .start-of-play {
   background-color: rgba(15, 76, 92, .2);
-  border: 2px solid #0F4C5C;
+  border: 2px solid $blue;
 }
 
 .start-of-play h2 {
-  color: #0F4C5C;
+  color: $blue;
 }
 
 .ongoing-play {
   background-color: rgba(227, 100, 20, .2);
-  border: 2px solid #E36414;
+  border: 2px solid $orange;
 }
 
 .ongoing-play h2 {
-  color: #E36414;
+  color: $orange;
 }
 
 .ongoing-play .form-entry-sub {
-  border-top: 1px solid #E36414;
+  border-top: 1px solid $orange;
   padding-top: 1em;
 }
