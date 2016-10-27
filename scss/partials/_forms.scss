@@ -12,11 +12,11 @@ input, textarea, select, button, label {
   width: 100%;
 }
 .form-entry {
-  width: 65%;
+  color: #000;
   margin: 2em 0;
   min-width: calc(35em * .4);
   padding: 1em;
-  color: #000;
+  width: 65%;
   -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
      -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
           box-sizing: border-box;
@@ -43,8 +43,8 @@ input, textarea, select, button, label {
 }
 
 .form-entry input[type="submit"]{
-  margin: 2em 0;
   display: block;
+  margin: 2em 0;
 }
 
 .form-entry input[type="text"] {
@@ -53,8 +53,8 @@ input, textarea, select, button, label {
 
 
 .current-play {
-  border: 2px solid #5F0F40;
   background-color: rgba(95, 15, 64, .2);
+  border: 2px solid #5F0F40;
 }
 
 .current-play h2 {
@@ -62,8 +62,8 @@ input, textarea, select, button, label {
 }
 
 .start-of-play {
-  border: 2px solid #0F4C5C;
   background-color: rgba(15, 76, 92, .2);
+  border: 2px solid #0F4C5C;
 }
 
 .start-of-play h2 {
@@ -71,8 +71,8 @@ input, textarea, select, button, label {
 }
 
 .ongoing-play {
-  border: 2px solid #E36414;
   background-color: rgba(227, 100, 20, .2);
+  border: 2px solid #E36414;
 }
 
 .ongoing-play h2 {
